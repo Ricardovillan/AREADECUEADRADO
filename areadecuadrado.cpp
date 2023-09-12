@@ -11,7 +11,7 @@ void main()
     printf("Altura:");
     scanf_s("%i", &Altura);
     area = Base * Altura;
-    printf("El area del cuadrado es:%i", area);
+    printf("El area del rectangulo es:%i", area);
 }
 
 
