@@ -5,12 +5,12 @@
 
 void main()
 {
-    int L1, L2, area;
-    printf("lado 1:");
-    scanf_s("%i",&L1);
-    printf("Lado 2:");
-    scanf_s("%i", &L2);
-    area = L1 * L2;
+    int Altura, Base, area;
+    printf("Base:");
+    scanf_s("%i",&Base);
+    printf("Altura:");
+    scanf_s("%i", &Altura);
+    area = Base * Altura;
     printf("El area del cuadrado es:%i", area);
 }
 
